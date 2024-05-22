@@ -3,4 +3,6 @@
     <item name="textViewTitle" type="id" />
     <item name="textViewDescription" type="id" />
     <item name="recyclerView" type="id" />
+    <item name="dreamDescription" type="id" />
+    <item name="saveDream" type="id" />
 </resources>

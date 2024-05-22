@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "DreamWise"
 include(":app")
- 
+
