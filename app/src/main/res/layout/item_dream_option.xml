@@ -1,0 +1,21 @@
+<!-- File: res/layout/item_dream_option.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imageViewDreamIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/button_background" />  <!-- Make sure this drawable resource exists -->/> <!-- Accessibility description -->
+
+    <TextView
+        android:id="@+id/textViewDreamName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:textColor="@color/black" /> <!-- Make sure this color resource exists -->
+</LinearLayout>
