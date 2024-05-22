@@ -67,7 +67,9 @@ class LoginActivity : AppCompatActivity() {
                     if (task.isSuccessful) {
                         Log.d(TAG, "signInWithEmail:success")
                         Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show()
-                        val intent = Intent(this@LoginActivity, DenemeAct::class.java)
+
+                        // Redirect to AddYourDreamPage after successful login
+                        val intent = Intent(this@LoginActivity, AddYourDreamPage::class.java)
                         startActivity(intent)
                         finish()
                     } else {
@@ -75,6 +77,7 @@ class LoginActivity : AppCompatActivity() {
                         Toast.makeText(this, "Authentication failed: ${task.exception?.message}", Toast.LENGTH_SHORT).show()
                     }
                 }
+
         }
 
         binding.forgotPassword.setOnClickListener {

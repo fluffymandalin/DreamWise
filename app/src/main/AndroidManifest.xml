@@ -16,18 +16,13 @@
         android:theme="@style/Theme.DreamWise"
         tools:targetApi="31">
 
-        <activity
-            android:name=".DenemeAct"
-            android:exported="false" />
-        <activity
-            android:name=".SignUpActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+        <activity android:name=".DreamOptionRecyclerView" android:exported="false"/>
+        <activity android:name=".DenemeAct" android:exported="false" />
+        <activity android:name=".AddYourDreamPage" android:exported="false"/>
+        <activity android:name=".SignUpActivity" android:exported="false" />
+        <activity android:name=".LoginActivity" android:exported="false" />
+        <activity android:name=".MainActivity" android:exported="true">
+
             <!-- Launcher intent filter -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
